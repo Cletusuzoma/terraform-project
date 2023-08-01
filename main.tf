@@ -1,3 +1,4 @@
+
 terraform {
   required_providers {
     github = {
@@ -17,4 +18,14 @@ resource "github_repository" "example" {
   description = "My awesome codebase"
 
   visibility = "public"
+}
+
+resource "aws_instance" "myec2" {
+  ami           =  "ami-0f34c5ae932e6f0e4"
+  instance_type = "t3.micro"
+
+
+  tags = {
+    name = "my-latest-ec2"
+  }
 }
