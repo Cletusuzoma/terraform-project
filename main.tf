@@ -12,3 +12,4 @@ resource "aws_instance" "myec2" {
     name = "mylatest-ec2"
   }
 }
+}
