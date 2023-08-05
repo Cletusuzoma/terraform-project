@@ -9,6 +9,6 @@ resource "aws_instance" "myec2" {
 
 
   tags = {
-    name = "my-latest-ec2"
+    name = "mylatest-ec2"
   }
 }
