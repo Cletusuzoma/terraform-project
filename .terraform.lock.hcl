@@ -23,6 +23,8 @@ provider "registry.terraform.io/hashicorp/aws" {
   ]
 }
 
+=======
+
 provider "registry.terraform.io/integrations/github" {
   version     = "5.32.0"
   constraints = "~> 5.0"
